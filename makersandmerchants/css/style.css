@@ -30,7 +30,6 @@ h2 {
     margin-bottom: 20px;
     color: #fff;
 }
-}
 
 h3 {
     font-size: 21px;
@@ -1583,8 +1582,7 @@ left: 0;
 width: 100% !important;
 height: 100% !important;
 }
-canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */
-#particles-js{   position:absolute; width: 100%; height: 100%; background-color: #000000; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
+
 
 
 
@@ -2508,12 +2506,14 @@ canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container
     transition: .3s ease-in-out;
 }
 .machine{
-        margin-left: 150px !important;
+        margin-left: 150px;
     }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 800px){
     .machine{
-        margin-left:-20%
-
+        margin-left:25%;
+        margin-top:5%
     }
-}
+    .butt{
+      margin-left: 30%;
+    }
 }
